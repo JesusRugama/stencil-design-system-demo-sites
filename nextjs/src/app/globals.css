@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@jesusrugama/stencil-design-system/dist/stencil-design-system/stencil-design-system.css";
 
 :root {
   --background: #ffffff;
