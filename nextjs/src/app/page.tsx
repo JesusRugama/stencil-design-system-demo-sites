@@ -72,6 +72,11 @@ export default function Home() {
                 size="md"
                 loading={isLoading}
                 onClick={handleSubmit}
+                style={{
+                  '--ds-color-primary-600': '#ff00fe',
+                  '--ds-color-primary-700': '#e600e6',
+                  '--ds-color-primary-800': '#cc00cc'
+                }}
               >
                 {isLoading ? 'Processing...' : 'Say Hello'}
               </ds-button>
